@@ -1,14 +1,14 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 }
 
-body{
+body {
 	background: #4d576c url("../img/fundo.jpg");
 	font-family: "cursive", "sans-serif;";
 }
 
-#container{
+#container {
 	min-width: 300px;
 	max-width: 1000px;
 	margin: 0 auto;
@@ -16,7 +16,7 @@ body{
 
 
 /*CABEÇALHO*/
-#cabecalho{
+#cabecalho {
 	margin: 0 50px 15px 50px;
 	min-width: 300px;
 	max-width: 900px;
@@ -24,7 +24,7 @@ body{
 	background: url("https://cdn.discordapp.com/attachments/1061852176017784892/1061852435380981850/capa.jpg");
 }
 
-#cabecalho h1{
+#cabecalho h1 {
 	text-indent: -5000px;
 }
 
@@ -34,7 +34,7 @@ body{
 	text-align: center;
 }
 
-#cabecalho ul li{
+#cabecalho ul li {
 	margin: 10px;
 	width: 150px;
 	line-height:1.8em;
@@ -42,21 +42,21 @@ body{
 	border-bottom: 1px solid transparent;
 }
 
-#cabecalho ul li:hover{ /* VER SE TEM BROWSER COISO */
+#cabecalho ul li:hover { 
 	background: rgba(53, 68, 92, 0.8);
 	cursor: pointer;
 	border-bottom: 1px solid rgba(33, 44, 63, 0.5);
 	border-radius: 10px;
 }
 
-#cabecalho ul li.selecionado{ /* VER SE TEM BROWSER COISO */
+#cabecalho ul li.selecionado { 
 	background: rgba(53, 68, 92, 0.8);
 	cursor: pointer;
 	border-bottom: 1px solid rgba(33, 44, 63, 0.5);
 	border-radius: 10px;
 }
 
-#cabecalho ul li a{
+#cabecalho ul li a {
 	font-weight: 800;
 	font-size: 1.1em;
 	color: #fff;
@@ -66,14 +66,14 @@ body{
 
 
 /*CONTEUDO HOME*/
-#conteudo{
+#conteudo {
 	margin: 0 50px;
 	max-width: 900px;
 	min-width: 300px;
 	background: #757e8e;
 }
 
-#conteudo h1{
+#conteudo h1 {
 	padding: 15px 0 5px 0;
 	font-size: 1.5em;
 	color: #fff;
@@ -90,7 +90,7 @@ body{
 
 
 /*CONTEUDO BIOGRAFIA*/
-#conteudo-b{
+#conteudo-b {
 	margin: 0 50px;
 	max-width: 900px;
 	min-width: 300px;
@@ -98,7 +98,7 @@ body{
 
 
 /*BIOGRAFIA*/
-#biografia{
+#biografia {
 	width: 610px;
 	float: left;
 	background: #757e8e;
@@ -106,22 +106,22 @@ body{
 	box-sizing: border-box;
 }
 
-#biografia h1{
+#biografia h1 {
 	color: #fff;
 	letter-spacing: 2px;
 }
 
-#biografia div.fotos{
+#biografia div.fotos {
 	width: 300px;
 	float: left;
 	margin-right: 25px;
 }
 
-#biografia .fotos img{
+#biografia .fotos img {
 	border: 5px solid #fff;
 }
 
-#biografia p{
+#biografia p {
 	padding-top: 10px;
 	text-align: justify;
 	letter-spacing: 0.5px;
@@ -129,7 +129,7 @@ body{
 
 
 /*CONTEUDO LATERAL*/
-#conteudo-lateral{
+#conteudo-lateral {
 	background: #3e4656;
 	width: 250px;
 	float: right;
@@ -137,7 +137,7 @@ body{
 	box-sizing: border-box;
 }
 
-#conteudo-lateral h2{
+#conteudo-lateral h2 {
 	background: #c5c5c5;
 	width: 230px;
 	padding: 10px 0;
@@ -146,21 +146,21 @@ body{
 	letter-spacing: 1px;
 }
 
-#conteudo-lateral div{ /* VER SE TEM BROWSER COISO */
+#conteudo-lateral div {
 	background: #fff;
 	padding: 15px;
 	border-radius: 10px;
 }
 
-#conteudo-lateral img{
+#conteudo-lateral img {
 	border: 2px solid #3e4656;
 }
 
-#conteudo-lateral p{
+#conteudo-lateral p {
 	text-align: justify;
 }
 
-#conteudo-lateral a{
+#conteudo-lateral a {
 	color: #3e4656;
 	padding: 10px;
 	font-weight: bold;
@@ -168,7 +168,7 @@ body{
 
 
 /*CONTEUDO*/
-#contato{
+#contato {
 	background: #3e4656; 
 	margin: 0 auto;
 	max-width: 900px;
@@ -177,30 +177,30 @@ body{
 	box-sizing: border-box;
 }
 
-#contato-conteudo{
+#contato-conteudo {
 	background: #fff;
 	padding: 15px;
 	border-radius: 15px;
 }
 
-#contato-conteudo h1{ /* VER SE TEM BROWSER COISO */
+#contato-conteudo h1 { 
 	text-align: center;
 	margin: 0 0 10px 0;
 	padding: 15px;
 }
 
-#contato-conteudo h3{
+#contato-conteudo h3 {
 	padding: 20px 0 5px 20px;
 }
 
-#contato-conteudo p{
+#contato-conteudo p {
 	padding: 10px;
 	border: 2px solid #c5c5c5;
 }
 
 
 /*RODAPE*/
-#rodape{
+#rodape {
 	margin: 0 auto;
 	min-width: 300px;
 	max-width: 900px;
@@ -212,7 +212,7 @@ body{
 
 
 /*BARRA DE ROLAGEM*/
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   width: 12px;
 }
 
