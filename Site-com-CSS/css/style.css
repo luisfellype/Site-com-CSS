@@ -1,0 +1,226 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #4d576c url("../img/fundo.jpg");
+	font-family: "cursive", "sans-serif;";
+}
+
+#container{
+	min-width: 300px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+/*CABEÇALHO*/
+#cabecalho{
+	margin: 0 50px 15px 50px;
+	min-width: 300px;
+	max-width: 900px;
+	height: 388px;
+	background: url("https://cdn.discordapp.com/attachments/1061852176017784892/1061852435380981850/capa.jpg");
+}
+
+#cabecalho h1{
+	text-indent: -5000px;
+}
+
+#cabecalho ul {
+	margin: 155px 30px;
+	list-style: none;
+	text-align: center;
+}
+
+#cabecalho ul li{
+	margin: 10px;
+	width: 150px;
+	line-height:1.8em;
+	padding: 10px 15px;
+	border-bottom: 1px solid transparent;
+}
+
+#cabecalho ul li:hover{ /* VER SE TEM BROWSER COISO */
+	background: rgba(53, 68, 92, 0.8);
+	cursor: pointer;
+	border-bottom: 1px solid rgba(33, 44, 63, 0.5);
+	border-radius: 10px;
+}
+
+#cabecalho ul li.selecionado{ /* VER SE TEM BROWSER COISO */
+	background: rgba(53, 68, 92, 0.8);
+	cursor: pointer;
+	border-bottom: 1px solid rgba(33, 44, 63, 0.5);
+	border-radius: 10px;
+}
+
+#cabecalho ul li a{
+	font-weight: 800;
+	font-size: 1.1em;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 25px;
+}
+
+
+/*CONTEUDO HOME*/
+#conteudo{
+	margin: 0 50px;
+	max-width: 900px;
+	min-width: 300px;
+	background: #757e8e;
+}
+
+#conteudo h1{
+	padding: 15px 0 5px 0;
+	font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: 900;
+}
+
+#conteudo p{
+	padding: 0 15px 10px 15px;
+	font-size: 1.2em;
+	text-align: justify;
+}
+
+
+/*CONTEUDO BIOGRAFIA*/
+#conteudo-b{
+	margin: 0 50px;
+	max-width: 900px;
+	min-width: 300px;
+}
+
+
+/*BIOGRAFIA*/
+#biografia{
+	width: 610px;
+	float: left;
+	background: #757e8e;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#biografia h1{
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+#biografia div.fotos{
+	width: 300px;
+	float: left;
+	margin-right: 25px;
+}
+
+#biografia .fotos img{
+	border: 5px solid #fff;
+}
+
+#biografia p{
+	padding-top: 10px;
+	text-align: justify;
+	letter-spacing: 0.5px;
+}
+
+
+/*CONTEUDO LATERAL*/
+#conteudo-lateral{
+	background: #3e4656;
+	width: 250px;
+	float: right;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#conteudo-lateral h2{
+	background: #c5c5c5;
+	width: 230px;
+	padding: 10px 0;
+	text-align: center;
+	margin-bottom: 15px;
+	letter-spacing: 1px;
+}
+
+#conteudo-lateral div{ /* VER SE TEM BROWSER COISO */
+	background: #fff;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#conteudo-lateral img{
+	border: 2px solid #3e4656;
+}
+
+#conteudo-lateral p{
+	text-align: justify;
+}
+
+#conteudo-lateral a{
+	color: #3e4656;
+	padding: 10px;
+	font-weight: bold;
+}
+
+
+/*CONTEUDO*/
+#contato{
+	background: #3e4656; 
+	margin: 0 auto;
+	max-width: 900px;
+	min-width: 300px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#contato-conteudo{
+	background: #fff;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+#contato-conteudo h1{ /* VER SE TEM BROWSER COISO */
+	text-align: center;
+	margin: 0 0 10px 0;
+	padding: 15px;
+}
+
+#contato-conteudo h3{
+	padding: 20px 0 5px 20px;
+}
+
+#contato-conteudo p{
+	padding: 10px;
+	border: 2px solid #c5c5c5;
+}
+
+
+/*RODAPE*/
+#rodape{
+	margin: 0 auto;
+	min-width: 300px;
+	max-width: 900px;
+	height: 50px;
+	background: #fff;
+	text-align: center;
+	padding-top: 33px;
+}
+
+
+/*BARRA DE ROLAGEM*/
+body::-webkit-scrollbar{
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #4d586c;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
